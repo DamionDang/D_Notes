@@ -254,5 +254,7 @@ SpotBugs 提供了一些规则，通过`@NonNull`在 Maven 构建期间处理注
 
 [Kotlin](https://kotlinlang.org/docs/null-safety.html)使用这些注解来推断 Spring API 的可空性。
 
-我希望你现在已经准备好在 Spring Boot 中编写 null 安全代码了！
+希望您现在已经准备好在 Spring Boot 中编写 null-safety代码了！
 
+> 部分文章、数据、图片来自互联网,一切版权均归原网站或原作者所有。
+> 如果侵犯了你的权益请来信告知删除。
