@@ -9,6 +9,9 @@ D_Notes
 NEXT👇👇👇
 ==========
 
+### Exception
+- [用Spring的Null_SafetyAnnotations避免NullPointerExceptions](/Exception/NullPointerExceptions/用Spring的Null_SafetyAnnotations避免NullPointerExceptions.md)
+
 ### Security
 - [如何防止勒索软件攻击](Security/如何防止勒索软件攻击.md)
 
