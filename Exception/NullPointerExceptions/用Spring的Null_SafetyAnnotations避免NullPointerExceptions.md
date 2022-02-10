@@ -31,13 +31,13 @@ Spring核心包下`org.springframework.lang`，有4个这样的注解：
 
 对于 IntelliJ，我们可以在 'Build, Execution, Deployment -> Compiler' 下激活注解检查：
 
-![IntelliJ 编译器配置](https://reflectoring.io/images/posts/spring-boot-null-safety-annotations/intellij-compiler-settings_hud188e08fdc0139feec7b91a21ff944e5_145688_1866x0_resize_box_3.png)
+![IntelliJ 编译器配置](https://github.com/DamionDang/D_Notes/blob/c70ead7920e4fa79e92a270a791529da0ab9ead3/Exception/NullPointerExceptions/image/image01.png)
 
 ### Eclipse
 
 对于 Eclipse，我们可以在 'Java -> Compiler -> Errors/Warnings' 下找到设置：
 
-![Eclipse 编译器配置](https://reflectoring.io/images/posts/spring-boot-null-safety-annotations/eclipse-compiler-settings_hu8534a04dde40f239dc7f4772e1ef3337_850180_2084x0_resize_box_3.png)
+![Eclipse 编译器配置](https://github.com/DamionDang/D_Notes/blob/c70ead7920e4fa79e92a270a791529da0ab9ead3/Exception/NullPointerExceptions/image/image06.png)
 
 ## 示例代码
 
@@ -74,7 +74,7 @@ class Employee {
 
 现在，如果我们不小心尝试`id`在代码中的任何位置将值设置为 null，IDE 将显示编译警告：
 
-![NonNull 的 IDE 警告](https://reflectoring.io/images/posts/spring-boot-null-safety-annotations/nonnull-ide-warning_hu5348352c54dfc5689093e49bbc5394b7_33745_1138x0_resize_box_3.png)
+![NonNull 的 IDE 警告](https://github.com/DamionDang/D_Notes/blob/c70ead7920e4fa79e92a270a791529da0ab9ead3/Exception/NullPointerExceptions/image/image02.png)
 
 **`@NonNull`注释可以在方法、参数或字段级别使用。**
 
@@ -102,9 +102,9 @@ package io.reflectoring.nullsafety;
 import org.springframework.lang.NonNullFields;
 ```
 
-现在，**我们不再需要使用`@NonNull` annotation**来注释字段。因为默认情况下，该包中类的所有字段现在都被视为非空。而且，我们仍然会看到与以前相同的警告：![NonNullFields 的 IDE 警告](https://reflectoring.io/images/posts/spring-boot-null-safety-annotations/nonnull-ide-warning_hu5348352c54dfc5689093e49bbc5394b7_33745_1138x0_resize_box_3.png)
+现在，**我们不再需要使用`@NonNull` annotation**来注释字段。因为默认情况下，该包中类的所有字段现在都被视为非空。而且，我们仍然会看到与以前相同的警告：![NonNullFields 的 IDE 警告](https://github.com/DamionDang/D_Notes/blob/c70ead7920e4fa79e92a270a791529da0ab9ead3/Exception/NullPointerExceptions/image/image03.png)
 
-这里要注意的另一点是，如果有任何未初始化的字段，那么我们将看到初始化这些字段的警告：![NonNull 的 IDE 警告](https://reflectoring.io/images/posts/spring-boot-null-safety-annotations/nonnullfields-ide-warning_huf1e2dea76ed1bc462a15a89ca8946d6c_20352_612x0_resize_box_3.png)
+这里要注意的另一点是，如果有任何未初始化的字段，那么我们将看到初始化这些字段的警告：![NonNull 的 IDE 警告](https://github.com/DamionDang/D_Notes/blob/c70ead7920e4fa79e92a270a791529da0ab9ead3/Exception/NullPointerExceptions/image/image04.png)
 
 `@NonNullFields`快速摘要：
 
@@ -145,7 +145,7 @@ class Employee {
 }  
 ```
 
-我们可以看到 IDE 现在警告我们不可为空的返回值：![NonNullApi 的 IDE 警告](https://reflectoring.io/images/posts/spring-boot-null-safety-annotations/nonnullapi-method-ide-warning_hu0f179a30c6c723f579ce7eeee2a50ca2_40298_1084x0_resize_box_3.png)
+我们可以看到 IDE 现在警告我们不可为空的返回值：![NonNullApi 的 IDE 警告](https://github.com/DamionDang/D_Notes/blob/c70ead7920e4fa79e92a270a791529da0ab9ead3/Exception/NullPointerExceptions/image/image05.png)
 
 `@NonNullApi`的快速摘要：
 
