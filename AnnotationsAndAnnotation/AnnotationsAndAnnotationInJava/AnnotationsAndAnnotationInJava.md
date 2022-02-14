@@ -1,4 +1,4 @@
-![An Introduction to Annotations and Annotation Processing in Java](https://reflectoring.io/images/stock/0116-post-its-1200x628-branded_hufcc297de820f3cb09743a12e8a176428_69308_1400x0_resize_q90_box.jpg)
+![An Introduction to Annotations and Annotation Processing in Java](https://github.com/DamionDang/D_Notes/blob/205b2250bd41ed4b3700f96176c1edb141cf3902/AnnotationsAndAnnotation/AnnotationsAndAnnotationInJava/image/image01.png)
 
 # Java中的注解和注解处理简介
 
