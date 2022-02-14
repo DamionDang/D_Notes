@@ -23,7 +23,7 @@ Let’s see what’s the minimal infrastructure requirement for a cluster like t
 - A private Docker registry
 - A load balancer to route traffic into the cluster from the outside
 
-A deployment view could look the following:![img](https://arnoldgalovics.com/wp-content/uploads/2022/02/Blank-diagram-2-1024x701.png)
+A deployment view could look the following:![img](https://github.com/DamionDang/D_Notes/blob/d74d11a872a526eb29e1885bb47470142ea255be/Kubernetes/OracleCloud/image/image01.png)
 
 Since my initial intent was to create the cluster with a low cost, the most obvious approach was to use ARM based compute nodes and turns out Oracle has a very good offering on that front.
 
