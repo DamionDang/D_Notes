@@ -23,7 +23,7 @@
 - 私有 Docker 注册表
 - 负载均衡器，用于将流量从外部路由到集群
 
-部署视图可能如下所示：![img](https://arnoldgalovics.com/wp-content/uploads/2022/02/Blank-diagram-2-1024x701.png)
+部署视图可能如下所示：![img](https://github.com/DamionDang/D_Notes/blob/d74d11a872a526eb29e1885bb47470142ea255be/Kubernetes/OracleCloud/image/image01.png)
 
 由于我最初的意图是以低成本创建集群，因此最明显的方法是使用基于 ARM 的计算节点，结果证明 Oracle 在这方面提供了非常好的产品。
 
