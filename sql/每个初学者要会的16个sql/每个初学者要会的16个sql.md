@@ -849,5 +849,5 @@ from events
 
 SQL 是一种有助于操作数据的强大工具。希望这些来自数字营销的 SQL 用例对您有用。这确实是一项方便的技能，可以帮助您完成许多项目。这些 SQL 片段让我的生活变得轻松多了，我几乎每天都在工作中使用它们。此外，SQL 和现代数据仓库是数据科学的必备工具。其强大的方言功能允许轻松建模和可视化数据。因为 SQL 是数据仓库和商业智能专业人员使用的语言，所以如果您想与他们共享数据，它是一个很好的选择。这是与市场上几乎所有数据仓库/湖解决方案进行通信的最常见方式。
 
-摘自[@datamike](https://hackernoon.com/u/datamike)(https://medium.com/@mshakhomirov?ref=hackernoon.com)发表的[hackernoon.com]([16 SQL Techniques Every Beginner Needs to Know | HackerNoon](https://hackernoon.com/16-sql-techniques-every-beginner-needs-to-know))
+摘自[@datamike](https://hackernoon.com/u/datamike)发表的[hackernoon.com](https://hackernoon.com/16-sql-techniques-every-beginner-needs-to-know)
 
